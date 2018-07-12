@@ -8,8 +8,13 @@
     @include('layouts.navbar')
 
     <!-- Jumbotron Header -->
-    <header class="jumbotron my-lg-1">
-        <h1 class="display-5">Add New Movies!</h1>
+    <header >
+        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            <strong>Add New Movies!</strong>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
     </header>
 
     <!-- Page Content -->
