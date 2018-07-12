@@ -85,11 +85,11 @@ return [
 
         'sqlsrv' => [
             'driver' => 'sqlsrv',
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', 'ec2-107-22-169-45.compute-1.amazonaws.com'),
             'port' => env('DB_PORT', '1433'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'd8tmmfosg37ueq'),
+            'username' => env('DB_USERNAME', 'fiwxvyzlftvuuw'),
+            'password' => env('DB_PASSWORD', '71878c0b774ac56c4114009f55eb0e7e341e03b75b1f6b29fc151b7989713441'),
             'charset' => 'utf8',
             'prefix' => '',
         ],
