@@ -130,7 +130,7 @@
             text-decoration: none;
             padding: 7px 14px;
             border: 1px solid #fff;
-            margin: 100px 0 0 0;
+            margin: 107px 0 0 0;
             background-color: transparent;
         }
 

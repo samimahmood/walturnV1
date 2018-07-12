@@ -23,7 +23,7 @@
         <!-- Jumbotron Header -->
         <header >
             <div class="alert alert-primary alert-dismissible fade show" role="alert">
-                <strong>Walturn Movies!</strong> See all the movies and add your favourite ones to your playlist.
+                <strong>Walturn Movies!</strong> Keep track of all movies and add your favourite ones to your playlist.
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -37,7 +37,7 @@
                 @foreach($movies as $movie)
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="card" style="width: 11.5rem;">
+                        <div class="card" style="width: 11.5rem; margin-bottom: 20px">
                             <div class="hovereffect">
                                 <img  style="width: 100%" class="img-responsive" src="{{$movie->image_link}}" alt="/images/{{$movie->image ? $movie->image : 'no movie photo'}}">
                                 <div class="overlay">

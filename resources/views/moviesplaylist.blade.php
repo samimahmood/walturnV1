@@ -58,7 +58,7 @@
                 @foreach($movies as $movie)
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="card" style="width: 11.5rem;">
+                        <div class="card" style="width: 11.5rem; margin-bottom: 20px">
                             <div class="hovereffect">
                                 <img  style="width: 100%" class="img-responsive" src="{{$movie->image_link}}" alt="/images/{{$movie->image ? $movie->image : 'no movie photo'}}">
                                 <div class="overlay">
